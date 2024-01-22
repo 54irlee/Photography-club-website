@@ -200,3 +200,85 @@ h4 {
     padding: 0 20px;
 }
 
+@media screen and (max-width: 480px){
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .banner {
+        height: 25.5em;
+    }
+
+    .banner-container .vertical {
+        width: 100px;
+        height: 120px;
+    }
+
+    .banner-container .horizon {
+        min-width: 230px;
+        height: 120px;
+    }
+
+    .banner-container {
+        width: 410px;
+        height: 24.5em;
+        margin: 50px 10px;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .img-size {
+        max-width: 160px;
+    }
+
+    .relative {
+        width: 540px;
+        height: 370px;
+    }
+
+    .img-container1 {
+        top: 40px;
+        left: 78px;
+    }
+
+    .img-container2 {
+        bottom: -9px;
+        right: 77px;
+    }
+
+    .img-container3 {
+        bottom: 33px;
+        right: 195px;
+    }
+
+    .align-items-center {
+        height: 260px;
+    }
+
+    h4 {
+        font-size: 0.5rem;
+        width: 100px;
+    }
+
+    .flex-space-betw-row {
+        gap: 30px;
+        gap: 30px;
+    }
+
+    .padding {
+        font-size: 0.75rem;
+        padding: 0 10px;
+    }
+}
